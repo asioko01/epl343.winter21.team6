@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="styleButton.css" />
+</head>
+<style>
+.anybutton {
+  top:40%;
+  left:90%;
+}
+</style>
+
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+  td {
+    width: 25% ;
+  }
+  tr{
+    height: 30px;
+  }
+</style>
+
+<body>
+
+  <table class="styled-table">
+    <thead>
+    <tr>
+      <th>Fish ID</th>
+      <th>Fish Name</th>
+      <th>Price/Kg</th>
+      <th>Quantity</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+        <td>22</td>
+        <td>Tsipoura</td>
+        <td>10€</td>
+        <td>100kg</td>
+    </tr>
+  
+    <tr>
+      <td>23</td>
+      <td>Kalamari</td>
+      <td>12€</td>
+      <td>20kg</td>
+    </tr>
+    <tr>
+        <td>STATUS: PENDING</td>
+      </tr>
+      <tr>
+        <td>TOTAL PRICE: 1240€</td>
+      </tr>
+ 
+
+
+  </tbody>
+  </table>
+
+  <br>
+  <br>
+
+
+
+
+<button type="submit" class="anybutton"  onclick =Submit() > Go Back </button> <br><br>  
+    
+    <script type="text/javascript">
+        function Submit(){
+            location.href='userEntryPage.html';
+        }
+    </script>
+
+
+</body>
+</html>

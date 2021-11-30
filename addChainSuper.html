@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styleMenuCust.css" />
+</head>
+
+<style>
+.addChainSupermarket {
+ top:83%;
+ left:auto;
+}
+
+.customerManagementRedirect {
+ top:auto;
+ left:auto;
+}
+
+
+</style>
+
+
+<body>
+
+<div class="form-center1">
+<form>
+    <h2>Add a chain </h2>
+    <label for="chainName">Chain Name :</label><br>
+    <input type="text" id="chainName" name="chainName" ><br>
+  </form>
+</div>
+
+<div class="form-center2">
+<form>
+    <h2>Add a supermarket </h2><br>
+    <label for="chainName">Chain Name :</label><br>
+    <input type="text" id="chainNameSel" name="chainNameSel" ><br><br>
+    <label for="city">City :</label><br>
+    <select name="city" id="city">
+        <option value="nicosia">Nicosia</option>
+        <option value="limassol">Limassol</option>
+        <option value="pafos">Pafos</option>
+        <option value="larnaka">Larnaca</option>
+        <option value="ammoxostos">Ammoxostos</option>
+        <option value="keryneia">Keryneia</option>
+    </select>
+    <br><br>
+    <label for="address">Address :</label><br>
+    <input type="text" id="address" name="address"><br><br>
+    <label for="telephone">Telephone :</label><br>
+    <input type="tel" id="telephone" name="telephone"><br><br>
+    <br><br>
+    <button type="submit" class="addChainSupermarket" onclick=addChainSupermarket()  > Confirm proccess </button> <br><br>
+    <button type="button" class="customerManagementRedirect" onclick=customerManagementRedirect()  > Back to Customer Menu </button> 
+</form>      
+</div>
+
+<script type="text/javascript">
+    function addChainSupermarket(){
+        var chainName =(document.getElementById('chainName').value);
+        var chainName =(document.getElementById('chainNameSel').value); 
+        var city=(document.getElementById('city').value); 
+        var address=(document.getElementById('address').value); 
+        var telephone=(document.getElementById('telephone').value); 
+    }
+    function customerManagementRedirect(){
+        location.href='menuCustomers.html';
+    }
+   
+</script>  
+</body>
+</html>

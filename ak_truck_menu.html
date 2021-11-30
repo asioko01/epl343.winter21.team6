@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styleMenuCust.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript">
+        function addTruck(){
+            location.href = 'ak_add_truck.html';
+        }
+        function removeTruck(){
+            location.href = 'remove_truck.html';
+        }
+        function viewTrucks(){
+            location.href = 'ak_view_trucks.html';
+        }
+        function t_back(){
+            location.href = 'AdminEntryPage.html';
+        }
+    </script>
+
+</head>
+<body>
+    <button type="button" onclick=addTruck()    class="editCustomer"  >ADD TRUCK   </button> 
+    <button type="button" onclick=removeTruck() class="removeCustomer"  >REMOVE TRUCK</button> 
+    <button type="button" onclick=viewTrucks()  class="viewCustomer"  >VIEW TRUCKS </button> 
+    <button type="button" onclick=t_back()      class="backButton"  > BACK        </button> 
+
+</body>
+</html>

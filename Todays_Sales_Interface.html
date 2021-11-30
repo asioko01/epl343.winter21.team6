@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript">  
+          function NewStockRedirect()
+          {
+            location.href = 'setTodays_Stock.php';
+          }
+          
+          function ViewOrdersRedirect()
+          {
+            location.href = 'View_Today_Orders_Interface.html';
+          } 
+          function backRedirect()
+          {
+            location.href = 'AdminEntryPage.html';
+          } 
+         </script>   
+
+    <style>
+        .New_Stock {
+          display: New Stock;
+          width: 40%;
+          border-color: #0c1650;
+          background-color: #3098ee; 
+          color: white;
+          padding: 14px 14px;
+          font-size: 20px;
+          cursor: pointer;
+          text-align: match-parent;
+        }
+        .New_Stock {  
+          margin: 0;
+          position: absolute;
+          top: 30%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 50%;
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+        }
+        
+        .New_Stock:hover{   
+         background-color: rgb(6, 194, 241);
+         color: black;
+      }
+      
+        </style>
+
+    <style>
+        .View_Todays_Orders {
+          display: New Stock;
+          width: 40%;
+          border-color: #0c1650;
+          background-color: #3098ee;
+          color: white;
+          padding: 14px 14px;
+          font-size: 20px;
+          cursor: pointer;
+          text-align: match-parent;
+        }
+
+        .View_Todays_Orders {
+          margin: 0;
+          position: absolute;
+          top: 40%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          left: 50%;
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+        }
+        
+        .View_Todays_Orders:hover{
+           background-color: rgb(6, 194, 241);
+           color: black;
+        }
+        </style>
+        <style>
+          .Go_Back {
+            display: New Stock;
+            width: 40%;
+            border-color: #0c1650;
+            background-color: #3098ee; 
+            color: white;
+            padding: 14px 14px;
+            font-size: 20px;
+            cursor: pointer;
+            text-align: match-parent;
+          }
+          .Go_Back {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            left: 50%;
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+          }
+          
+          .Go_Back:hover{
+           
+             background-color: rgb(6, 194, 241);
+             color: black;
+  
+          }
+          
+          </style>
+
+</head>
+<body>
+    <button type="button" onclick=NewStockRedirect() class="New_Stock">New Stock</button>
+    <button type="button" onclick=ViewOrdersRedirect() class="View_Todays_Orders">View Todays Orders</button>
+    <button type="button" onclick=backRedirect() class="Go_Back">Back </button>
+
+</body>
+</html>

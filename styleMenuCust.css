@@ -1,0 +1,138 @@
+.addCustomer {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.addCustomer:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}
+.editCustomer {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.editCustomer:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}
+
+.removeCustomer {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.removeCustomer:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}
+
+.viewCustomer {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.viewCustomer:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}
+.backButton {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.backButton:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}
+
+.trucks {
+  width: 40%;
+  border-color: #0c1650;
+  background: #2691d9;
+  color: white;
+  padding: 14px 14px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: match-parent;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.trucks:hover {
+  background-color: rgb(6, 194, 241);
+  color: black;
+}

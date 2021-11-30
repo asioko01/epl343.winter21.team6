@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="styleMenuCust.css" />
+
+
+
+    <script type="text/javascript">
+       
+        function ta_back(){
+            location.href = 'ak_truck_menu.html';
+        }
+    </script>
+</head>
+
+<style>
+    .addChainSupermarket{
+        top:100%;
+        left:29%;
+    }
+
+    .customerManagementRedirect{
+        top:120%;
+        left:29%;
+    }
+</style>
+
+<body>
+    <div class="center">
+        <form>
+        <h1>Add Truck </h1>
+        <div class="form-group">
+        <label for="license" >License Plate :</label>
+        <input type="text" id="licensecell" name="licencecell" class="form-control" >
+        </div>
+        <div class="form-group">
+        <label for="driver">Driver's Name:</label>
+        <input type="text" id="drivercell" name="drivercell" class="form-control" >
+        </div>
+        <div class="form-group">
+        <label for="model">Model :</label>
+        <input type="text" id="modelcell" name="modelcell" class="form-control" >
+        </div>
+        <div class="form-group">
+        <label for="city">City :</label><br>
+        <select name="city" id="city" class="form-control">
+            <div class="form-group">
+            <option value="nicosia">Nicosia</option>
+            <option value="limassol">Limassol</option>
+            <option value="pafos">Pafos</option>
+            <option value="larnaka">Larnaca</option>
+            <option value="ammoxostos">Ammoxostos</option>
+            <option value="keryneia">Keryneia</option>
+        </select>
+        </div>
+        <div class="form-group">
+        <button type="submit" class="btn btn-primary"  onclick=at_submit()  > Submit </button>
+        </div>
+
+        <div class="form-group">
+        <button type="button" class="btn btn-primary"  onclick=ta_back()  > Back </button> 
+        </div>
+    </form> 
+</div>
+</body>
+</html>

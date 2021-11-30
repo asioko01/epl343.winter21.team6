@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="styleButton.css" />
+
+    <script type="text/javascript">
+        function co_back(){
+            location.href='userEntryPage.html';
+        }
+        function co_submit(){
+            var so = document.getElementById("solomosQuantity").value;
+            var mp = document.getElementById("mpakaliarosQuantity").value;
+            var ts = document.getElementById("tsipuraQuantity").value;
+            var ka = document.getElementById("kalamariQuantity").value;
+            document.getElementById("solomosQuantity").value = "";
+            document.getElementById("mpakaliarosQuantity").value = "";
+            document.getElementById("tsipuraQuantity").value = "";
+            document.getElementById("kalamariQuantity").value = "";
+
+        }
+    </script>
+    <style>
+    .anyButton2 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: #2691d9;
+    top:auto;
+    left:93%;
+   }  
+   .anyButton3 {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    background-color: #2691d9;
+    top:auto;
+    left:83%;
+   }  
+    </style>
+</head>
+<body>
+    
+    <h1>Add To Cart</h1>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>FISH ID</th>
+                <th>FISH NAME</th>
+                <th>PRICE/kg</th>
+                <th>MAX QUANTITY</th>
+                <th>ORDER QUANTITY</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <th>Solomos</th>
+                <th>24 euro</th>
+                <th>40</th>
+                <td><input style="width:99%;font-size:15pt;" type="text" id="solomosQuantity"></td>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Mpakaliaros</th>
+                <th>18 euro</th>
+                <th>45</th>
+                <td><input style="width:99%;font-size:15pt;" type="text" id="mpakaliarosQuantity"></td>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Tsipoura</th>
+                <th>12 euro</th>
+                <th>60</th>
+                <td><input style="width:99%;font-size:15pt;" type="text" id="tsipuraQuantity"></td>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Kalamari</th>
+                <th>6 euro</th>
+                <th>75</th>
+                <td><input style="width:99%;font-size:15pt;" type="text" id="kalamariQuantity"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button type="button" onclick=co_submit() class="" > Submit </button>
+    <br>
+    <button type="button" onclick=co_back()  > Back </button> 
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+</head>
+
+<style>
+.anyButton{
+    left:93%;
+}
+</style>
+
+<body>
+    <h2>Remove Trucks </h2>
+    <table class="styled-table">
+        <thead>
+        <tr>
+            <th>Brand </th>
+            <th>Model </th>
+            <th>Driver</th>
+            <th>Plate Number</th>
+            <th>Delivery Town</th>
+            <th class="header-label">Remove</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>Mercedes Benz</th>
+            <th>Type X </th>
+            <th>George Lewis</th>
+            <th>KNN101</th>
+            <th>Nicosia</th>
+            <th><input type="checkbox"></th>
+        </tr>
+        <tr>
+            <th> Honda </th>
+            <th>Type Z </th>
+            <th>John Smith</th>
+            <th>22122347</th>
+            <th>Nicosia</th>
+            <th><input type="checkbox"></th>
+        </tr>
+        <tr>
+            <th> Honda </th>
+            <th>Type M </th>
+            <th>Pyrros Bratskas</th>
+            <th>EPL343</th>
+            <th>Limassol</th>
+            <th><input type="checkbox"></th>
+        </tr>
+        <tr>
+            <th> Toyota </th>
+            <th>Type J </th>
+            <th>Maria Papoutsoglou</th>
+            <th>MAR222</th>
+            <th>Famagusta</th>
+            <th><input type="checkbox"></th>
+        </tr>
+    </tbody>
+    </table>
+    <button type="submit" class="anyButton"  onclick =adminEntryPageRedirect() > Confirm proccess </button> <br><br>  
+    
+    <script type="text/javascript">
+        function adminEntryPageRedirect(){
+            location.href='ak_truck_menu.html';
+        }
+    </script>
+</body>
+</html>

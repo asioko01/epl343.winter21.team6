@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styleMenuCust.css" />
+      
+    <style>
+    .addCustomer{
+        width:200px;
+        height:60px;
+        top:100%;
+        left:50%;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="center">
+            <h1>Login</h1>
+            <form method="post">
+                <div class="txt_field">
+                    <input type="text" id="user" required>
+                    <label>Username</label>
+                </div>
+                <div class="txt_field">
+                    <input type="password" id="pass" required>
+                    <label>Password</label>
+                </div>
+                <input type="button" onclick=UserLoginRedirect() value="Login">
+            </form>
+        </div>
+
+
+        <script type="text/javascript">  
+            function UserLoginRedirect()
+            {
+                var vUser = (document.getElementById('user').value);
+                var vpass = (document.getElementById('pass').value);
+                if(vUser==="admin" && vpass==="1234"){
+                    location.href = 'AdminEntryPage.html'; 
+                }
+                else if(vUser==="user" && vpass==="0007"){
+                    location.href = "UserEntryPage.html"; 
+                }             
+                else{
+                    alert("wrong credentials");                   
+                }               
+            }
+          
+           </script> 
+    </body>
+</html>

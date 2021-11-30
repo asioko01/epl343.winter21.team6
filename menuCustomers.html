@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleMenuCust.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script type="text/javascript">  
+        function addCustomerRedirect()
+        {
+          location.href = 'addChainSuperD.php';
+        }
+        
+        function editCustomerRedirect()
+        {
+          location.href = 'changeSupInfoD1.php';
+        }
+        function removeCustomerRedirect()
+        {
+          location.href = 'removeChainSupD.php';
+        }
+        
+        function viewCustomerRedirect()
+        {
+          location.href = 'viewSupInfoD.php';
+        }  
+        function backRedirect()
+        {
+          location.href = 'adminEntryPage.php';
+        }  
+       </script>   
+    
+</head>
+<body>
+    
+   <button type="button" onclick=addCustomerRedirect() class="addCustomer"  >Add Customer</button> 
+   <button type="button" onclick=editCustomerRedirect() class="editCustomer" >Edit Customer </button>
+   <button type="button" onclick=removeCustomerRedirect() class="removeCustomer"  >Remove Customer</button> 
+   <button type="button" onclick=viewCustomerRedirect() class="viewCustomer">View Customer </button>
+   <button type="button" onclick=backRedirect() class="backButton">Back </button>
+
+    
+</body>
+</html>

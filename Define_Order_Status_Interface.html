@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleAddChainSuper.css" />
+    <link rel="stylesheet" type="text/css" href="styleButton.css" />
+</head>
+<style>
+.anyButton {
+  top:73%;
+  left:93%;
+  }
+
+
+input.checkLarger{
+  width: 25px;
+  height: 25px;
+  margin-top:5%;
+  margin-left:47%;
+}
+
+</style>
+
+
+<body>
+  <h1>Define Order Status</h1>
+  <table class="styled-table">
+    <thead>
+    <tr>
+      <th>Supermarket</th>
+      <th>Total Price</th>
+      <th>Fish ID</th>
+      <th>Fish Name</th>
+      <th>Status</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>Sklavenitis</td>
+        <td>120€</td>
+        <td>1</td>
+        <td>Solomos</td>
+        <td rowspan="4"><input type="checkbox" class="checkLarger" id="Check" name="Check"></td>
+    </tr>
+  
+    <tr>
+      <td>Sklavenitis</td>
+      <td>90€</td>
+      <td>2</td>
+      <td>Mpakaliaros</td>
+      
+    </tr>
+  
+  <tr>
+    <td>Sklavenitis</td>
+    <td>140€</td>
+    <td>3</td>
+    <td>Tsipoura</td>
+    
+  </tr>
+  
+  <tr>
+    <td>Sklavenitis</td>
+    <td>60€</td>
+    <td>4</td>
+    <td>Kalamari</td>
+    
+  </tr>
+  <tr>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  
+    <tr>
+        <td>Alfamega</td>
+        <td>70€</td>
+        <td>1</td>
+        <td>Solomos</td>
+        <td rowspan="4"><input type="checkbox"  class="checkLarger" id="Check" name="Check"></td>
+    </tr>
+  
+    <tr>
+      <td>Alfamega</td>
+      <td>100€</td>
+      <td>2</td>
+      <td>Mpakaliaros</td>
+      
+    </tr>
+  
+  <tr>
+    <td>Alfamega</td>
+    <td>110€</td>
+    <td>3</td>
+    <td>Tsipoura</td>
+   
+  </tr>
+  <tr>
+    <td>Alfamega</td>
+    <td>60€</td>
+    <td>4</td>
+    <td>Kalamari</td>
+    
+
+</tbody>
+  </table>
+  <br>
+  <br>
+<button type="button" class="anyButton"  onclick =submit() > Submit </button> <br><br>  
+    <script type="text/javascript">
+        function submit(){
+            location.href='AdminEntryPage.php';
+        }
+    </script>
+
+
+</body>
+</html>
