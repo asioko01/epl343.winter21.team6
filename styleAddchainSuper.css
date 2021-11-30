@@ -66,12 +66,16 @@
   height: 40px;
   position: absolute;
   background-color: #2691d9;
+  font-weight: bold;
+  color: #ffffff;
 }
 .anyButton2 {
   width: 100px;
   height: 40px;
   position: absolute;
   background-color: #2691d9;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .addChainSupermarket {
